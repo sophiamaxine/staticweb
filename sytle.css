@@ -1,0 +1,285 @@
+/* Resetting some default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Farro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Farro', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#nav-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#header-img .nike-logo {
+    max-width: 150px;
+}
+
+#nav-bar .list ul {
+    display: flex;
+    list-style: none;
+}
+
+#nav-bar .list ul li {
+    margin: 0 15px;
+}
+
+#nav-bar .list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-bar .list ul li a:hover {
+    text-decoration: underline;
+}
+
+.arrows {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.arrows i {
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#info {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#info h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#info p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info2 {
+    padding: 2rem;
+    background: #fff;
+}
+
+.parra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p1, .p2 {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.p1 h3, .p2 h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.info2 p {
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.grid .im img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.promo {
+    padding: 2rem;
+    background: #fff;
+}
+
+#video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.p3 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.p3 h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.title-form h4 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.dad {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.details {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+form p {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+#submit {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #555;
+}
+
+.details h4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.details p {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social p, .last-items p, .last-blog-post p {
+    margin-bottom: 1rem;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.last-items ul {
+    list-style: none;
+}
+
+.last-items ul li {
+    margin-bottom: 0.5rem;
+}
+
+.author {
+    margin-top: 1rem;
+}
+
+.author a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
