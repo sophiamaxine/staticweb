@@ -1,143 +1,1136 @@
-<!DOCTYPE html>
-<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<main> 
+  <header id="header">
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" id="pic">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
-        crossorigin="anonymous" />
-    <title>My Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: url('https://images.unsplash.com/photo-1516822901610-134c2798d8ff') no-repeat center center fixed;
-            background-size: cover;
-            font-family: 'Roboto', sans-serif;
-            color: #fff;
-        }
-
-        .navbar {
-            background-color: #000;
-        }
-
-        .navbar-brand, .nav-link {
-            color: #fff !important;
-        }
-
-        .navbar-brand:hover, .nav-link:hover {
-            color: #ddd !important;
-        }
-
-        .navbar-nav {
-            margin-left: auto;
-        }
-
-        h2 {
-            margin-top: 50px;
-            font-size: 3rem;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .container img {
-            display: block;
-            margin: 20px auto;
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            border: 4px solid #fff;
-        }
-
-        .container p {
-            margin-top: 20px;
-            padding: 20px;
-            font-size: 1.2rem;
-            font-weight: 400;
-            color: #ddd;
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-        }
-
-        .icons li {
-            display: inline-block;
-            margin: 10px;
-        }
-
-        .icons li a {
-            border: 3px solid #fff;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            text-align: center;
-            padding: 10px;
-            color: #fff;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .icons li a:hover {
-            background-color: #fff;
-            color: #000;
-        }
-
-        footer {
-            background-color: #000;
-            padding: 20px;
-            color: #fff;
-        }
-
-        footer p {
-            margin-top: 10px;
-            font-size: 1.2rem;
-        }
-    </style>
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Home</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container text-center">
-        <h2>Unmesha Bhowmik</h2>
-    </div>
-
-    <div class="container text-center">
-        <img src="https://via.placeholder.com/200" class="img-responsive" alt="Profile Image">
-        <p>This website is for internship purposes only. I am currently pursuing my B.Tech in Production Engineering from NIT Agartala. I am a highly organized, dedicated, and hardworking person, with a proven ability to improve working environments and a commitment to employee welfare.</p>
-    </div>
-
-    <footer class="container text-center">
-        <ul class="icons list-unstyled">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+       <nav id="nav-bar"> 
+               <div id="header-img">
+        <img src="https://clipart-library.com/image_gallery2/Nike-Logo-PNG.png" class="nike-logo">
+              </div>
+       <div  class="list">
+         <ul> 
+          <li><a href="#info" class="nav-link">info</a></li>
+          <li><a href="#info3" class="nav-link">promo</a></li>
+          <li><a href="#contact" class="nav-link">contact</a></li>
         </ul>
-        <p>Thank You</p>
-    </footer>
+       </div>
+    </nav>
+    <a href="#info"><i class="fas fa-chevron-down down"></i></a>
+  </header>
+  <div class="arrows">
+          <i class="fas fa-chevron-left" id="l"></i>
+          <i class="fas fa-chevron-right" id="r"></i>
+        </div> 
+  <section id="info">
+    <div class="par">
+      <h2>You can't stop us!</h2>
+      <p>There's a reason we love comeback stories. We see ourselves in them — our resolve, our grit, our hope. Now, more than ever, we need these stories to remind us what we're capable of. And by becoming a Nike Member, we can create our incredible comeback stories together.</p>
+      <button class="btn"><a href="#">Join Us</a></button>
+    </div>
+  </section>
+  <section class="info2">
+    <div class="parra">
+      <div class="p1">
+        <h3>STORIES, STYLE, AND SPORTING GOODS AT NIKE, SINCE 1964</h3>
+        <p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. Nike is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.</p>
+      </div>
+      <div class="p2">
+        <h3>WORKOUT CLOTHES, FOR ANY SPORT</h3>
+        <p>Nike designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.</p>
+      </div>
+    </div>
+  </section>
+  <section id="info3">
+    <div class="grid">
+      <div class="im">
+        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_904,c_limit/47189ad1-8403-482c-8522-f13440a56e6c/nike-just-do-it.jpg">
+      </div>
+      <div class="im">
+       <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_904,c_limit/a4e685fc-43bd-4dd7-9487-820135bb6ff9/nike-just-do-it.jpg">
+      </div>
+    </div>
+  </section>
+  <section class="promo">
+    <div id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SE2ANQ25vto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="p3">
+      <h3>Directed by Steven Smith and David Dorcena</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur esse nemo eius nesciunt at ducimus odio quibusdam provident, id dignissimos nihil, voluptatum ipsum quam temporibus sequi? Laborum quisquam consequatur accusantium iure animi quae qui facere sed ipsam cum error consequuntur aspernatur nihil hic voluptatum, corrupti nobis doloremque maxime autem minus harum? Sunt nulla fuga, reprehenderit, ad natus possimus nemo aspernatur dolores dolor temporibus, qui inventore. Placeat error odit nam minima hic magnam rerum, consectetur nostrum ad facere vel harum architecto, enim dolores veniam commodi suscipit deserunt maiores illo! Est dignissimos esse repellendus quaerat aliquam quisquam maiores fugiat iusto illo.</>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="title-form">
+      <h4>get in touch</h4>
+    </div>
+    <div class="dad">
+    <div class="form">
+      <form id="form" action="/action_page.php">
+        <p>drop me a line...</p>
+        <input type="text" name="name" placeholder="Name*" id="name" required>
+        <input type="email" name="email" id="email" placeholder="Email*" required>
+          <input type="tel" name="phone" id="phone" name="phone" placeholder="Phone">
+        <textarea rows="1" cols="50" name="message" form="message" placeholder="Message" id="message" required></textarea>
+        <input type="submit" id="submit" value="SHOOT!"
+    </form>
+</div>
+      <div class="details">
+        <h4>the details</h4>
+        <p class="ppp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae qui temporibus impedit odio tempore sit possimus. Iusto nesciunt culpa nostrum cum animi laborum, quaerat debitis doloribus aspernatur deserunt provident modi temporibus ratione necessitatibus ullam harum vel pariatur dolorum, nam illum.</p>
+        <p class="pp">xample@xample.com</p>
+        <p class="pp">+1 823 123 4444</p>
+        <p class="pp">www.xample.com</p>
+        </div>
+    </div>
+</section>
+  <footer>
+    <div  class="footer">
+    <div class="social">
+      <p>Our social media</p>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+      <div class="last-items">
+        <p>latest products</p>
+        <ul class="last-items-ul">
+          <li>Nike Air Max 270</li>
+          <li>Nike Air Force 1 07</li>
+          <li>Nike Air Max 270 Bowfin</li>
+        </ul>
+      </div>
+      <div class="last-blog-post">
+        <p class="lastp">latest blog post</p>
+        <p class="lastpp">How much a website cost?</p>
+        <p class="p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dolorum...?</p>
+      </div>
+    </div>
+    <p class="author">Designed by <a href="https://github.com/wagnerhenriquez">Wagner Henriquez</></p>
+  </footer>
+</main>
+<script src="https://kit.fontawesome.com/bb499b2907.js" crossorigin="anonymous"></script>
+<style>
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+main{
+  height: 100%;
+}
+#header{
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cd071d;
+}
+#pic{
+  max-width: 100%;
+}
+.down{
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: traslate(-50%, -50%);
+  animation: arrow 1.8s linear infinite;
+}
+@keyframes arrow{
+  0%{
+    top: 80%;
+  }
+  50%{
+    top: 85%;
+  }
+  100%{
+    top: 80%;
+  }
+}
+.arrows{
+  position: absolute;
+  top: 85%;
+  left: 85%;
+  padding: 10px;
+}
+.arrows .fas{
+  padding: 5px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+#r{
+  position: absolute;
+  animation: r 1.5s linear infinite;
+  transition: 1s;
+}
+#l{
+    position: absolute;
+    animation: l 1.5s linear infinite;
+    transition: 1s;
+}
+@keyframes r{
+  0%{
+    left: 85%;
+  }
+  50%{
+    left: 100%;
+  }
+  100%{
+    left: 85%;
+  }
+}
+@keyframes l{
+  0%{
+    right: 85%;
+  }
+  50%{
+    right: 100%;
+  }
+  100%{
+    right: 85%;
+  }
+}
+#nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  padding: 100px;
+  top: 0;
+}
+.nike-logo{
+  width: 7%;
+}
+.list{
+  padding: 10px;
+  font-family: 'Farro', sans-serif;
+}
+.nav-link{
+  padding: 10px;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+#info{
+  padding: 50px;
+  background-color: #fcbf49;
+  height: 400px;
+  display: flex;
+}
+.par{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.par p{
+  font-size: 1.5rem;
+}
+.btn{
+  width: 10%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #000;
+  cursor: pointer;
+  transition: .8s;
+}
+.btn:hover{
+  font-size: 1rem;
+  width: 10.5%;
+}
+.info2{
+  background-color: #fff;
+  padding: 25px;
+  height: 400px;
+  display: flex;
+}
+.parra{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1, .p2{
+  padding: 25px;
+  font-family: 'Farro', sans-serif;
+  font-size: 0.8rem;
+}
+.p1 h3, .p2 h3{
+  padding-bottom: 20px;
+}
+#info3{
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.grid{
+  display: flex;
+  align-items: center;
+}
+.im img{
+width: 100%;
+}
+.promo{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+#video{
+  width: 100%;
+  text-align: -webkit-center;
+}
+.p3{
+  width: 100%;
+}
+.p3 h3{
+  padding: 20px;
+}
+.p3 p{
+  padding: 25px;
+  font-family: 'Farro', sans-serif;
+  font-size: 0.8rem;
+}
+#contact{
+  background-color: #003049;
+  padding: 50px 0;
+}
+.title-form{
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.dad{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+}
+.form{
+  display: flex;
+  white-space: break-spaces;
+  color: #fff;
+  width: 100%;
+/*   padding-right: 30%; */
+}
+#form p{
+  font-family: 'Farro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+input{
+  border: none;
+  border-bottom: #fff solid 1px;
+  width: 150%;
+  padding: 10px 0 10px;
+  background-color: transparent;
+}
+textarea{
+  padding: 10px 0 10px;
+  border: none;
+  border-bottom: #fff 1px solid;
+  background-color: transparent;
+  color: #fff;
+  width: 150%;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+#submit{
+    border-bottom: none;
+    margin: 20px 0;
+    background-color: #ffffff;
+    color: #003049;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+}
+.details{
+  width: 80%;
+}
+.details h4{
+    font-family: 'Farro', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.ppp{
+    padding: 25px 0 10px;
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+}
+.pp{
+    font-style: italic;
+}
+footer{
+ background-color: #003049;
+}
+.footer{
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  padding: 100px 0 20px;
+}
+.social{
+    width: 80%;
+    margin: 0 auto;
+}
+.social p{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.social-icons{
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+.last-items{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Farro', sans-serif;
+    text-align: center;
+}
+.last-items p{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    font-weight: bold;
+}
+.last-items-ul{
+    display: initial;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.last-blog-post{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-align: end;
+}
+.lastp{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 10px;
+}
+.lastpp{
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  font-style: italic;  
+}
+.p4{
+  font-style:italic;
+}
+.author{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    padding: 20px 0 60px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+}
+/*THIS is just a DEMO is not truly responsive*/
+@media all and (max-width: 1560px){
+  .arrows, .down{
+    top: 80% !important;
+  }
+  @keyframes arrow{
+    0%{
+      top: 80%;
+    }
+    50%{
+     top: 85%; 
+    }
+    100%:{
+      80%;
+    }
+  }
+  .title-form, .dad{
+    width: 80%;
+  }
+}
+@media all and (max-width: 1290px){
+  input, textarea{
+    width: 100%;
+  }
+}
+@media all and (max-width: 1024px){
+  .down{
+    display: none !important;
+  }
+  .arrows{
+    display: none;
+  }
+}
+    </style>
+    <script>
+      const slider = [
+    {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    },
+    {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    }  
+]
+const img = document.getElementById('pic')
+const l = document.getElementById('l')
+const r = document.getElementById('r')
+const h = document.getElementById('header')
+const m =document.getElementById('message')
 
-</body>
-</html>
+let currentPic = 0
+
+window.addEventListener('DOMContentloaded', () => {
+  showSlider(currentPic)
+})
+
+function showSlider(){
+const item = slider[currentPic]
+img.src = item.img
+}
+
+r.addEventListener('click', () => {
+    currentPic++
+    if (currentPic > slider.length - 1) {
+        currentPic = 0
+        h.style.backgroundColor = '#cd071d'
+    }
+    if (currentPic > slider.length - 2) {
+        h.style.backgroundColor = '#008dff'
+    }
+    showSlider(currentPic)
+})
+
+l.addEventListener('click', () => {
+    currentPic++
+    if (currentPic > slider.length - 1) {
+        currentPic = 0
+        h.style.backgroundColor = '#cd071d'
+    }
+    if (currentPic > slider.length - 2) {
+        h.style.backgroundColor = '#008dff'
+    }
+    showSlider(currentPic)
+})
+
+m.addEventListener('click', () => {
+  m.style.padding = '10px 0 50px'
+})
+      
+    </script>
+    
+    
+<link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<main> 
+  <header id="header">
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" id="pic">
+
+       <nav id="nav-bar"> 
+               <div id="header-img">
+        <img src="https://clipart-library.com/image_gallery2/Nike-Logo-PNG.png" class="nike-logo">
+              </div>
+       <div  class="list">
+         <ul> 
+          <li><a href="#info" class="nav-link">info</a></li>
+          <li><a href="#info3" class="nav-link">promo</a></li>
+          <li><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+       </div>
+    </nav>
+    <a href="#info"><i class="fas fa-chevron-down down"></i></a>
+  </header>
+  <div class="arrows">
+          <i class="fas fa-chevron-left" id="l"></i>
+          <i class="fas fa-chevron-right" id="r"></i>
+        </div> 
+  <section id="info">
+    <div class="par">
+      <h2>You can't stop us!</h2>
+      <p>There's a reason we love comeback stories. We see ourselves in them — our resolve, our grit, our hope. Now, more than ever, we need these stories to remind us what we're capable of. And by becoming a Nike Member, we can create our incredible comeback stories together.</p>
+      <button class="btn"><a href="#">Join Us</a></button>
+    </div>
+  </section>
+  <section class="info2">
+    <div class="parra">
+      <div class="p1">
+        <h3>STORIES, STYLE, AND SPORTING GOODS AT NIKE, SINCE 1964</h3>
+        <p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. Nike is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.</p>
+      </div>
+      <div class="p2">
+        <h3>WORKOUT CLOTHES, FOR ANY SPORT</h3>
+        <p>Nike designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.</p>
+      </div>
+    </div>
+  </section>
+  <section id="info3">
+    <div class="grid">
+      <div class="im">
+        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_904,c_limit/47189ad1-8403-482c-8522-f13440a56e6c/nike-just-do-it.jpg">
+      </div>
+      <div class="im">
+       <img src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_904,c_limit/a4e685fc-43bd-4dd7-9487-820135bb6ff9/nike-just-do-it.jpg">
+      </div>
+    </div>
+  </section>
+  <section class="promo">
+    <div id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SE2ANQ25vto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="p3">
+      <h3>Directed by Steven Smith and David Dorcena</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur esse nemo eius nesciunt at ducimus odio quibusdam provident, id dignissimos nihil, voluptatum ipsum quam temporibus sequi? Laborum quisquam consequatur accusantium iure animi quae qui facere sed ipsam cum error consequuntur aspernatur nihil hic voluptatum, corrupti nobis doloremque maxime autem minus harum? Sunt nulla fuga, reprehenderit, ad natus possimus nemo aspernatur dolores dolor temporibus, qui inventore. Placeat error odit nam minima hic magnam rerum, consectetur nostrum ad facere vel harum architecto, enim dolores veniam commodi suscipit deserunt maiores illo! Est dignissimos esse repellendus quaerat aliquam quisquam maiores fugiat iusto illo.</>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="title-form">
+      <h4>get in touch</h4>
+    </div>
+    <div class="dad">
+    <div class="form">
+      <form id="form" action="/action_page.php">
+        <p>drop me a line...</p>
+        <input type="text" name="name" placeholder="Name*" id="name" required>
+        <input type="email" name="email" id="email" placeholder="Email*" required>
+          <input type="tel" name="phone" id="phone" name="phone" placeholder="Phone">
+        <textarea rows="1" cols="50" name="message" form="message" placeholder="Message" id="message" required></textarea>
+        <input type="submit" id="submit" value="SHOOT!"
+    </form>
+</div>
+      <div class="details">
+        <h4>the details</h4>
+        <p class="ppp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae qui temporibus impedit odio tempore sit possimus. Iusto nesciunt culpa nostrum cum animi laborum, quaerat debitis doloribus aspernatur deserunt provident modi temporibus ratione necessitatibus ullam harum vel pariatur dolorum, nam illum.</p>
+        <p class="pp">xample@xample.com</p>
+        <p class="pp">+1 823 123 4444</p>
+        <p class="pp">www.xample.com</p>
+        </div>
+    </div>
+</section>
+  <footer>
+    <div  class="footer">
+    <div class="social">
+      <p>Our social media</p>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+      <div class="last-items">
+        <p>latest products</p>
+        <ul class="last-items-ul">
+          <li>Nike Air Max 270</li>
+          <li>Nike Air Force 1 07</li>
+          <li>Nike Air Max 270 Bowfin</li>
+        </ul>
+      </div>
+      <div class="last-blog-post">
+        <p class="lastp">latest blog post</p>
+        <p class="lastpp">How much a website cost?</p>
+        <p class="p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dolorum...?</p>
+      </div>
+    </div>
+    <p class="author">Designed by <a href="https://github.com/wagnerhenriquez">Wagner Henriquez</></p>
+  </footer>
+</main>
+<script src="https://kit.fontawesome.com/bb499b2907.js" crossorigin="anonymous"></script>
+<style>
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+main{
+  height: 100%;
+}
+#header{
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cd071d;
+}
+#pic{
+  max-width: 100%;
+}
+.down{
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: traslate(-50%, -50%);
+  animation: arrow 1.8s linear infinite;
+}
+@keyframes arrow{
+  0%{
+    top: 80%;
+  }
+  50%{
+    top: 85%;
+  }
+  100%{
+    top: 80%;
+  }
+}
+.arrows{
+  position: absolute;
+  top: 85%;
+  left: 85%;
+  padding: 10px;
+}
+.arrows .fas{
+  padding: 5px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+#r{
+  position: absolute;
+  animation: r 1.5s linear infinite;
+  transition: 1s;
+}
+#l{
+    position: absolute;
+    animation: l 1.5s linear infinite;
+    transition: 1s;
+}
+@keyframes r{
+  0%{
+    left: 85%;
+  }
+  50%{
+    left: 100%;
+  }
+  100%{
+    left: 85%;
+  }
+}
+@keyframes l{
+  0%{
+    right: 85%;
+  }
+  50%{
+    right: 100%;
+  }
+  100%{
+    right: 85%;
+  }
+}
+#nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  padding: 100px;
+  top: 0;
+}
+.nike-logo{
+  width: 7%;
+}
+.list{
+  padding: 10px;
+  font-family: 'Farro', sans-serif;
+}
+.nav-link{
+  padding: 10px;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+#info{
+  padding: 50px;
+  background-color: #fcbf49;
+  height: 400px;
+  display: flex;
+}
+.par{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.par p{
+  font-size: 1.5rem;
+}
+.btn{
+  width: 10%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  background: #000;
+  cursor: pointer;
+  transition: .8s;
+}
+.btn:hover{
+  font-size: 1rem;
+  width: 10.5%;
+}
+.info2{
+  background-color: #fff;
+  padding: 25px;
+  height: 400px;
+  display: flex;
+}
+.parra{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1, .p2{
+  padding: 25px;
+  font-family: 'Farro', sans-serif;
+  font-size: 0.8rem;
+}
+.p1 h3, .p2 h3{
+  padding-bottom: 20px;
+}
+#info3{
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.grid{
+  display: flex;
+  align-items: center;
+}
+.im img{
+width: 100%;
+}
+.promo{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+#video{
+  width: 100%;
+  text-align: -webkit-center;
+}
+.p3{
+  width: 100%;
+}
+.p3 h3{
+  padding: 20px;
+}
+.p3 p{
+  padding: 25px;
+  font-family: 'Farro', sans-serif;
+  font-size: 0.8rem;
+}
+#contact{
+  background-color: #003049;
+  padding: 50px 0;
+}
+.title-form{
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.dad{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+}
+.form{
+  display: flex;
+  white-space: break-spaces;
+  color: #fff;
+  width: 100%;
+/*   padding-right: 30%; */
+}
+#form p{
+  font-family: 'Farro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+input{
+  border: none;
+  border-bottom: #fff solid 1px;
+  width: 150%;
+  padding: 10px 0 10px;
+  background-color: transparent;
+}
+textarea{
+  padding: 10px 0 10px;
+  border: none;
+  border-bottom: #fff 1px solid;
+  background-color: transparent;
+  color: #fff;
+  width: 150%;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+#submit{
+    border-bottom: none;
+    margin: 20px 0;
+    background-color: #ffffff;
+    color: #003049;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+}
+.details{
+  width: 80%;
+}
+.details h4{
+    font-family: 'Farro', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.ppp{
+    padding: 25px 0 10px;
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+}
+.pp{
+    font-style: italic;
+}
+footer{
+ background-color: #003049;
+}
+.footer{
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  padding: 100px 0 20px;
+}
+.social{
+    width: 80%;
+    margin: 0 auto;
+}
+.social p{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.social-icons{
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+.last-items{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Farro', sans-serif;
+    text-align: center;
+}
+.last-items p{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0 0 10px;
+    font-weight: bold;
+}
+.last-items-ul{
+    display: initial;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.last-blog-post{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    text-align: end;
+}
+.lastp{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 10px;
+}
+.lastpp{
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  font-style: italic;  
+}
+.p4{
+  font-style:italic;
+}
+.author{
+    font-family: 'Farro', sans-serif;
+    font-size: 0.8rem;
+    padding: 20px 0 60px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+}
+/*THIS is just a DEMO is not truly responsive*/
+@media all and (max-width: 1560px){
+  .arrows, .down{
+    top: 80% !important;
+  }
+  @keyframes arrow{
+    0%{
+      top: 80%;
+    }
+    50%{
+     top: 85%; 
+    }
+    100%:{
+      80%;
+    }
+  }
+  .title-form, .dad{
+    width: 80%;
+  }
+}
+@media all and (max-width: 1290px){
+  input, textarea{
+    width: 100%;
+  }
+}
+@media all and (max-width: 1024px){
+  .down{
+    display: none !important;
+  }
+  .arrows{
+    display: none;
+  }
+}
+    </style>
+    <script>
+      const slider = [
+    {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    },
+    {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    }  
+]
+const img = document.getElementById('pic')
+const l = document.getElementById('l')
+const r = document.getElementById('r')
+const h = document.getElementById('header')
+const m =document.getElementById('message')
+
+let currentPic = 0
+
+window.addEventListener('DOMContentloaded', () => {
+  showSlider(currentPic)
+})
+
+function showSlider(){
+const item = slider[currentPic]
+img.src = item.img
+}
+
+r.addEventListener('click', () => {
+    currentPic++
+    if (currentPic > slider.length - 1) {
+        currentPic = 0
+        h.style.backgroundColor = '#cd071d'
+    }
+    if (currentPic > slider.length - 2) {
+        h.style.backgroundColor = '#008dff'
+    }
+    showSlider(currentPic)
+})
+
+l.addEventListener('click', () => {
+    currentPic++
+    if (currentPic > slider.length - 1) {
+        currentPic = 0
+        h.style.backgroundColor = '#cd071d'
+    }
+    if (currentPic > slider.length - 2) {
+        h.style.backgroundColor = '#008dff'
+    }
+    showSlider(currentPic)
+})
+
+m.addEventListener('click', () => {
+  m.style.padding = '10px 0 50px'
+})
+      
+    </script>
+    
+    
