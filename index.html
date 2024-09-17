@@ -4,120 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
         crossorigin="anonymous" />
     <title>My Portfolio</title>
     <style>
         * {
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        
         body {
-            background-image: url(brandi-redd-aJTiW00qqtI-unsplash.jpg);
-            height: 100%;
-            background-repeat: no-repeat;
-            background-position-x: center;
+            background: url('https://images.unsplash.com/photo-1516822901610-134c2798d8ff') no-repeat center center fixed;
             background-size: cover;
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
         }
 
         .navbar {
-            margin-top: 0px;
+            background-color: #000;
+        }
 
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
 
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ddd !important;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
         }
 
         h2 {
             margin-top: 50px;
-            color: rgb(18, 0, 117);
-
+            font-size: 3rem;
+            font-weight: 700;
+            color: #fff;
         }
 
         .container img {
             display: block;
-            margin: auto;
+            margin: 20px auto;
             height: 200px;
             width: 200px;
+            border-radius: 50%;
+            border: 4px solid #fff;
         }
 
         .container p {
-            margin-top: 15px;
-            margin-left: auto;
-            padding: 14px;
-            font-size: large;
-            font-weight: bolder;
-            color: rgb(9, 3, 61);
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #ddd;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
         }
 
         .icons li {
             display: inline-block;
-            margin-top: 20px;
+            margin: 10px;
         }
 
         .icons li a {
-            border: 3px solid rgb(1, 175, 67);
+            border: 3px solid #fff;
             border-radius: 50%;
-            font-weight: bolder;
+            font-size: 1.5rem;
             text-align: center;
-            margin: 10px;
-            padding: 7px;
-            color: rgb(20, 1, 71);
+            padding: 10px;
+            color: #fff;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        .container-fluid p {
-            color: rgb(8, 0, 56);
-            margin-top: 30px;
-            font-size: 19px;
-            font-weight: bolder;
+        .icons li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        footer {
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+        }
+
+        footer p {
+            margin-top: 10px;
+            font-size: 1.2rem;
         }
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Home</a>
-            </div>
-            <div class="nav">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
+
     <div class="container text-center">
         <h2>Unmesha Bhowmik</h2>
     </div>
-    <div class="container">
-        <img src="unu dp lto.jpeg" class="img-responsive img-circle" alt="Image">
-        <p class="text-center">This website is for internship purpose only. 
-            I am currently pursuing my B.Tech in Production Engineering from NIT Agartala.I am a highly organised,dedicated and a hard working person,with a proven ability to improve working environments and a commitment to employee welfare. </p>
-    </div>
-    <div>
-        <footer class="container-fluid text-center">
-            <div>
 
-                <ul class="icons list-unstyled">
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-github"></i></a></li>
-                    <li><a href="#"><i class="fas fa-envelope-square"></i></a></li>
-                </ul>
-            </div>
-            <p>Thank You</p>
-        </footer>
+    <div class="container text-center">
+        <img src="https://via.placeholder.com/200" class="img-responsive" alt="Profile Image">
+        <p>This website is for internship purposes only. I am currently pursuing my B.Tech in Production Engineering from NIT Agartala. I am a highly organized, dedicated, and hardworking person, with a proven ability to improve working environments and a commitment to employee welfare.</p>
     </div>
+
+    <footer class="container text-center">
+        <ul class="icons list-unstyled">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <p>Thank You</p>
+    </footer>
+
 </body>
-
 </html>
